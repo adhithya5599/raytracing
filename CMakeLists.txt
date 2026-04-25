@@ -20,7 +20,7 @@ set ( EXTERNAL
 )
 
 set ( SOURCE_ONE_WEEKEND
-	
+	src/InOneWeekend/main.cc
 )
 
 include_directories(src)
@@ -54,12 +54,3 @@ endif()
 
 # Executables
 add_executable(inOneWeekend      ${EXTERNAL} ${SOURCE_ONE_WEEKEND})
-#add_executable(theNextWeek       ${EXTERNAL} ${SOURCE_NEXT_WEEK})
-#add_executable(theRestOfYourLife ${EXTERNAL} ${SOURCE_REST_OF_YOUR_LIFE})
-#add_executable(cos_cubed         src/TheRestOfYourLife/cos_cubed.cc         )
-#add_executable(cos_density       src/TheRestOfYourLife/cos_density.cc       )
-#add_executable(integrate_x_sq    src/TheRestOfYourLife/integrate_x_sq.cc    )
-#add_executable(pi                src/TheRestOfYourLife/pi.cc                )
-#add_executable(estimate_halfway  src/TheRestOfYourLife/estimate_halfway.cc  )
-#add_executable(sphere_importance src/TheRestOfYourLife/sphere_importance.cc )
-#add_executable(sphere_plot       src/TheRestOfYourLife/sphere_plot.cc       )
