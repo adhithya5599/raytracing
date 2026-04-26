@@ -14,7 +14,7 @@ class ray
 		const point3& origin() const { return m_origin; }
 		const vec3& direction() const { return m_direction; }
 
-		point3 at(float i_t) const { return m_origin + i_t * m_direction; }
+		point3 at(double i_t) const { return m_origin + i_t * m_direction; }
 
 	private:
 
